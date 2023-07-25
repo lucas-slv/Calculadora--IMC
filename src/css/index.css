@@ -1,0 +1,198 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans+Narrow:wght@400;700&display=swap');
+
+ body {
+    background-color: #3c3a3f;
+    font-family: 'PT Sans Narrow', sans-serif;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container { 
+    background-color: #2a292c;
+    box-shadow: 0 0 20px #68666b;
+    width: 30%;
+    height: 65%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 7px;
+    margin-top: 50px;
+}
+
+.container h1 {
+    /* background-color: green; */
+    width: 100%;
+    height: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    color: #fff;
+    font-size: 2.1rem;
+    font-weight: bold;
+    letter-spacing: 1.5px;
+    /* margin-top: 10px; */
+} 
+
+.form {
+    /* background-color: red; */
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+
+.input {
+    /* background-color: green; */
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+}
+
+.input label {
+    /* background-color: blue; */
+    height: 30px;
+    width: 30%;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #fff;
+    letter-spacing: 1.5px;
+    text-align: start;
+}
+
+.input input {
+    background-color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+.input input:focus::placeholder {
+    color: #2a292c;
+}
+
+.input input:focus {
+    border: #000 1px solid;
+    outline: none;
+}
+
+#botao {
+    padding: 10px 20px;
+    margin-top: 25px;
+    border: none;
+    border-radius: 5px;
+    background-color: black;
+    color: #fff;
+    cursor: pointer;
+    font-size: 1em;
+    font-weight: bold;
+    letter-spacing: .6px;
+    transition: .5s;
+}
+
+#botao:hover {
+    background-color: #fff;
+    color: #000;
+    transform: scale(1.05);
+}
+
+.resposta {
+    /* background-color: red; */
+    width: 100%;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+
+#name-text,
+#valor-imc,
+#user-status {
+    /* background-color: yellow; */
+    width: 100%;
+    height: 50px;
+    margin-top: 20px;
+    font-size: 2rem;
+    text-align: center;
+}
+
+#name-text {
+    color: #fff;
+    font-weight: bold;
+    letter-spacing: .5px;
+}
+
+#valor-imc {
+    color: #fff;
+    letter-spacing: 1px;
+    font-weight: normal;
+}
+
+#user-status {
+    color: cornflowerblue;
+    font-size: 1.8em;
+    font-weight: bold;
+    transition: .1s;
+}
+
+.botao-voltar {
+    padding: 10px 30px;
+    margin-top: 40px;
+    border: none;
+    border-radius: 7px;
+    font-size: 1.1rem;
+    color: rgb(66, 101, 167);
+    background-color: #000;
+    font-weight: bold;
+    cursor: pointer;
+    transition: .7s;
+}
+
+.botao-voltar:hover {
+    background-color: #fff;
+    color: #000;
+    transform: scale(1.05);
+}
+
+#resultado {
+    color: rgb(66, 101, 167);
+    font-size: 1.1em;
+    width: 100%;
+    text-align: center;
+    font-weight: bold;
+}
+
+footer {
+    /* background-color: yellow; */
+    margin-top: 50px;
+    width: 40%;
+    text-align: center;
+    height: 30px;
+}
+
+span {
+    font-size: 1.3em;
+    font-weight: normal;
+    font-style: normal;
+    letter-spacing: 1.2px;
+    color: #fff;
+}
+
+span a {
+    color: rgb(66, 101, 167);
+    font-size: 1em;
+    font-weight: normal;
+    font-style: italic;
+}
+
+span a:hover {
+    text-decoration: underline solid 1px rgb(66, 101, 167);
+}

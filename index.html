@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="shortcut icon" href="./src/mídias/favicon.ico" type="image/x-icon">
+
+    <link rel="stylesheet" href="./src/css/reset.css">
+    <link rel="stylesheet" href="./src/css/index.css">
+    <link rel="stylesheet" href="./src/css/responsivo.css">
+    
+    <title>Calculadora - IMC</title>
+</head>
+<body>
+
+    <div class="container">
+        <h1>Calculadora IMC</h1>
+
+        <div id="form-container" class="form">
+            
+            <div class="input">
+                <label>Nome:</label>
+                <input type="text" name="nome" id="nome" placeholder="Insira seu nome aqui." required>
+            </div>
+
+            <div class="input">
+                <label>Altura:</label>
+                <input type="number" id="altura" placeholder="Insira sua altura em metros (Ex: 1.70)." required>
+            </div>
+
+            <div class="input">
+                <label>Peso:</label>
+                <input type="number" id="peso" placeholder="Insira seu peso em kilos (kg)." required>
+            </div>
+
+            <button id="botao">Calcular IMC</button>
+
+            <div id="resultado"></div>
+        </div>
+
+        <div class="resposta" id="resposta" style="display: none;">
+            <div id="name-text"></div>
+            <div id="valor-imc"></div>
+            <div id="user-status"></div>
+            <button id="voltar" class="botao-voltar">Voltar</button>
+        </div>
+    </div>
+
+    <footer>
+        <span>Desenvolvido por: <a href="https://instagram.com/lucas.mds_?igshid=MzNlNGNkZWQ4Mg==" target="_blank">Lucas Mendes</a></span>
+    </footer>
+
+    <script src="./index.js"></script>
+</body>
+</html>
